@@ -1,0 +1,45 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio generated files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Android Studio
+/app/build/
+.gradle
+.idea
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Firebase
+google-services.json
+firebase-key.json
+
+# Environment
+.env
+.env.local
+
+# MacOS
+.DS_Store
+
+# Node modules (if using node)
+node_modules/
+npm-debug.log
+
+# Sensitive files
+*/google-services.json
+secrets.properties
