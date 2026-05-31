@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pesawaran Food</string>
+    <string name="app_slogan">Pesan Makanan UMKM Pesawaran Lebih Mudah</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_search">Cari</string>
+    <string name="nav_orders">Pesanan</string>
+    <string name="nav_cart">Keranjang</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Authentication -->
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="logout">Keluar</string>
+    <string name="email">Email</string>
+    <string name="phone">Nomor HP</string>
+    <string name="password">Kata Sandi</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="forgot_password">Lupa Kata Sandi?</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+    <string name="already_have_account">Sudah punya akun?</string>
+    <string name="sign_in_with_google">Masuk dengan Google</string>
+    <string name="sign_in_with_phone">Masuk dengan Nomor HP</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_next">Lanjut</string>
+    <string name="onboarding_skip">Lewati</string>
+    <string name="onboarding_finish">Selesai</string>
+
+    <!-- Common -->
+    <string name="google_maps_api_key">YOUR_GOOGLE_MAPS_API_KEY_HERE</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="loading">Memuat...</string>
+    <string name="error">Terjadi Kesalahan</string>
+    <string name="success">Berhasil</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="ok">OK</string>
+    <string name="empty_state">Tidak ada data</string>
+
+    <!-- Product -->
+    <string name="product_name">Nama Produk</string>
+    <string name="product_price">Harga</string>
+    <string name="product_stock">Stok</string>
+    <string name="product_category">Kategori</string>
+    <string name="product_description">Deskripsi</string>
+    <string name="add_to_cart">Tambah ke Keranjang</string>
+    <string name="add_to_favorites">Tambah ke Favorit</string>
+    <string name="remove_from_favorites">Hapus dari Favorit</string>
+    <string name="rating">Rating</string>
+    <string name="reviews">Ulasan</string>
+
+    <!-- Order -->
+    <string name="order_id">ID Pesanan</string>
+    <string name="order_status">Status Pesanan</string>
+    <string name="order_date">Tanggal Pesanan</string>
+    <string name="order_total">Total Pesanan</string>
+    <string name="estimated_delivery">Estimasi Pengiriman</string>
+    <string name="delivery_address">Alamat Pengiriman</string>
+    <string name="delivery_notes">Catatan Pengiriman</string>
+    <string name="order_confirmed">Pesanan Dikonfirmasi</string>
+    <string name="order_preparing">Pesanan Diproses</string>
+    <string name="order_ready">Pesanan Siap</string>
+    <string name="order_on_way">Sedang dalam Perjalanan</string>
+    <string name="order_delivered">Pesanan Terkirim</string>
+    <string name="order_cancelled">Pesanan Dibatalkan</string>
+
+    <!-- Cart -->
+    <string name="cart">Keranjang Belanja</string>
+    <string name="cart_empty">Keranjang Anda kosong</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_fee">Ongkir</string>
+    <string name="discount">Diskon</string>
+    <string name="tax">Pajak</string>
+    <string name="total">Total</string>
+    <string name="checkout">Lanjut Pembayaran</string>
+    <string name="continue_shopping">Lanjut Belanja</string>
+
+    <!-- Payment -->
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="cod">Bayar di Tempat (COD)</string>
+    <string name="qris">QRIS</string>
+    <string name="bank_transfer">Transfer Bank</string>
+    <string name="payment_pending">Menunggu Pembayaran</string>
+    <string name="payment_success">Pembayaran Berhasil</string>
+    <string name="payment_failed">Pembayaran Gagal</string>
+
+    <!-- Location -->
+    <string name="current_location">Lokasi Saat Ini</string>
+    <string name="select_location">Pilih Lokasi</string>
+    <string name="location_permission_required">Izin Lokasi Diperlukan</string>
+    <string name="grant_location_permission">Berikan Izin Akses Lokasi</string>
+    <string name="nearby_restaurants">Restoran Terdekat</string>
+    <string name="distance">Jarak</string>
+
+    <!-- UMKM -->
+    <string name="umkm_dashboard">Dashboard UMKM</string>
+    <string name="total_orders">Total Pesanan</string>
+    <string name="daily_revenue">Omzet Harian</string>
+    <string name="monthly_revenue">Omzet Bulanan</string>
+    <string name="active_products">Produk Aktif</string>
+    <string name="add_product">Tambah Produk</string>
+    <string name="edit_product">Edit Produk</string>
+    <string name="delete_product">Hapus Produk</string>
+    <string name="manage_products">Kelola Produk</string>
+    <string name="accept_order">Terima Pesanan</string>
+    <string name="reject_order">Tolak Pesanan</string>
+    <string name="mark_as_ready">Tandai Siap</string>
+    <string name="order_list">Daftar Pesanan</string>
+
+    <!-- Courier -->
+    <string name="courier_dashboard">Dashboard Kurir</string>
+    <string name="available_orders">Pesanan Tersedia</string>
+    <string name="active_orders">Pesanan Aktif</string>
+    <string name="delivery_history">Riwayat Pengantaran</string>
+    <string name="total_earnings">Total Penghasilan</string>
+    <string name="today_earnings">Penghasilan Hari Ini</string>
+    <string name="accept_delivery">Terima Pesanan</string>
+    <string name="start_delivery">Mulai Pengantaran</string>
+    <string name="mark_delivered">Tandai Terkirim</string>
+    <string name="upload_proof">Unggah Bukti</string>
+    <string name="take_photo">Ambil Foto</string>
+    <string name="choose_from_gallery">Pilih dari Galeri</string>
+
+    <!-- Admin -->
+    <string name="admin_panel">Panel Admin</string>
+    <string name="user_management">Manajemen Pengguna</string>
+    <string name="umkm_management">Manajemen UMKM</string>
+    <string name="courier_management">Manajemen Kurir</string>
+    <string name="product_management">Manajemen Produk</string>
+    <string name="order_management">Manajemen Pesanan</string>
+    <string name="transaction_report">Laporan Transaksi</string>
+    <string name="app_statistics">Statistik Aplikasi</string>
+    <string name="verify_umkm">Verifikasi UMKM</string>
+    <string name="block_user">Blokir Pengguna</string>
+    <string name="unblock_user">Buka Blokir Pengguna</string>
+
+    <!-- Settings -->
+    <string name="settings">Pengaturan</string>
+    <string name="account_settings">Pengaturan Akun</string>
+    <string name="notification_settings">Pengaturan Notifikasi</string>
+    <string name="privacy_settings">Pengaturan Privasi</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="about">Tentang</string>
+    <string name="help">Bantuan</string>
+    <string name="feedback">Umpan Balik</string>
+    <string name="terms_conditions">Syarat &amp; Ketentuan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+
+    <!-- Profile -->
+    <string name="my_profile">Profil Saya</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="change_password">Ubah Kata Sandi</string>
+    <string name="my_addresses">Alamat Saya</string>
+    <string name="add_address">Tambah Alamat</string>
+    <string name="edit_address">Edit Alamat</string>
+    <string name="address_label">Label Alamat</string>
+    <string name="home">Rumah</string>
+    <string name="office">Kantor</string>
+    <string name="other">Lainnya</string>
+    <string name="set_as_default">Jadikan Default</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Email tidak valid</string>
+    <string name="error_invalid_phone">Nomor HP tidak valid</string>
+    <string name="error_password_too_short">Kata sandi minimal 6 karakter</string>
+    <string name="error_passwords_not_match">Kata sandi tidak cocok</string>
+    <string name="error_email_already_exists">Email sudah terdaftar</string>
+    <string name="error_phone_already_exists">Nomor HP sudah terdaftar</string>
+    <string name="error_network">Terjadi kesalahan jaringan</string>
+    <string name="error_server">Terjadi kesalahan server</string>
+    <string name="error_timeout">Waktu tunggu habis</string>
+    <string name="error_unauthorized">Tidak diotorisasi</string>
+    <string name="error_not_found">Data tidak ditemukan</string>
+    <string name="error_permission_denied">Izin ditolak</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">Login berhasil</string>
+    <string name="success_register">Registrasi berhasil</string>
+    <string name="success_logout">Logout berhasil</string>
+    <string name="success_profile_updated">Profil diperbarui</string>
+    <string name="success_password_changed">Kata sandi diubah</string>
+    <string name="success_product_added">Produk ditambahkan</string>
+    <string name="success_product_updated">Produk diperbarui</string>
+    <string name="success_product_deleted">Produk dihapus</string>
+    <string name="success_order_created">Pesanan dibuat</string>
+    <string name="success_order_confirmed">Pesanan dikonfirmasi</string>
+    <string name="success_delivery_completed">Pengantaran selesai</string>
+
+</resources>

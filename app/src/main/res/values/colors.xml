@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color -->
+    <color name="primary">#16A34A</color>
+    <color name="primary_variant">#15803D</color>
+
+    <!-- Secondary Color -->
+    <color name="secondary">#F97316</color>
+    <color name="secondary_variant">#EA580C</color>
+
+    <!-- Tertiary Color -->
+    <color name="tertiary">#0EA5E9</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_light">#F5F5F5</color>
+    <color name="surface_lighter">#FAFAFA</color>
+
+    <!-- Error Color -->
+    <color name="error">#DC2626</color>
+    <color name="error_light">#FEE2E2</color>
+
+    <!-- Success Color -->
+    <color name="success">#16A34A</color>
+    <color name="success_light">#DCFCE7</color>
+
+    <!-- Warning Color -->
+    <color name="warning">#EA8C0F</color>
+    <color name="warning_light">#FEF3C7</color>
+
+    <!-- Info Color -->
+    <color name="info">#0EA5E9</color>
+    <color name="info_light">#E0F2FE</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#9CA3AF</color>
+    <color name="text_hint">#D1D5DB</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#FFFFFF</color>
+
+    <!-- Border Colors -->
+    <color name="border">#E5E7EB</color>
+    <color name="border_light">#F3F4F6</color>
+
+    <!-- Rating Colors -->
+    <color name="star_filled">#FBBF24</color>
+    <color name="star_empty">#E5E7EB</color>
+
+    <!-- Status Colors -->
+    <color name="status_pending">#EA8C0F</color>
+    <color name="status_confirmed">#0EA5E9</color>
+    <color name="status_preparing">#6366F1</color>
+    <color name="status_ready">#8B5CF6</color>
+    <color name="status_on_way">#F97316</color>
+    <color name="status_delivered">#16A34A</color>
+    <color name="status_cancelled">#DC2626</color>
+
+</resources>

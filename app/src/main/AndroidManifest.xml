@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pesawaran.food">
+
+    <!-- Internet & Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <!-- Camera & Storage -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!-- Phone -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <!-- Notifications -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Maps -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.PesawaranFood"
+        tools:targetApi="31">
+
+        <!-- Activities -->
+        <activity
+            android:name=".presentation.ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".presentation.ui.onboarding.OnboardingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar" />
+
+        <activity
+            android:name=".presentation.ui.auth.AuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar" />
+
+        <activity
+            android:name=".presentation.ui.auth.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar" />
+
+        <activity
+            android:name=".presentation.ui.auth.RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar" />
+
+        <activity
+            android:name=".presentation.ui.auth.PhoneVerificationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood.NoActionBar" />
+
+        <!-- Customer Main Activity -->
+        <activity
+            android:name=".presentation.ui.customer.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- Customer Detail Activities -->
+        <activity
+            android:name=".presentation.ui.customer.ProductDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.customer.CheckoutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.customer.OrderTrackingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.customer.ReviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- UMKM Main Activity -->
+        <activity
+            android:name=".presentation.ui.umkm.UMKMMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.umkm.AddProductActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.umkm.EditProductActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.umkm.OrderDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- Courier Main Activity -->
+        <activity
+            android:name=".presentation.ui.courier.CourierMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.courier.DeliveryDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.courier.DeliveryMapsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- Admin Main Activity -->
+        <activity
+            android:name=".presentation.ui.admin.AdminMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- Common Activities -->
+        <activity
+            android:name=".presentation.ui.common.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.common.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <activity
+            android:name=".presentation.ui.common.EditProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PesawaranFood" />
+
+        <!-- Services -->
+        <service
+            android:name=".service.PushNotificationService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.LocationService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <!-- Firebase App Indexing -->
+        <meta-data
+            android:name="com.google.firebase.app_indexing.enabled"
+            android:value="true" />
+
+    </application>
+
+</manifest>
